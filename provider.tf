@@ -7,13 +7,13 @@ terraform {
   }
   backend "s3" {
     bucket = "abhinak.fun-remote-state"
-    key    = "k8-eksctl"
+    key    = "k8-eksctl " #can be any name
     region = "us-east-1"
-    dynamodb_table = "abhinak.fun-remote-state"
+    dynamodb_table = "abhinavk.fun-remote-state" #name is defined in dynamodb table
   }
 }
 
-#provide authentication here
 provider "aws" {
+  # Configuration options
   region = "us-east-1"
 }

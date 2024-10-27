@@ -1,10 +1,10 @@
 variable "sg_id" {
   type        = string
-  default     = "sg-025675b16e3a842ba"
+  default     = "sg-0ee8e61412c16f407"
   description = "description"
 }
 
 variable "public_subnet_id" {
     type = string
-    default = "subnet-0b816c0e30449c2dd"
+    default = "subnet-0771fa19496bf5fa1"
 }
