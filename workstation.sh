@@ -54,6 +54,8 @@ VALIDATE $? "kubectl installation"
 # ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 # VALIDATE $? "kubens installation"
 
+#install k9s from github
+#curl -sS https://webinstall.dev/k9s | bash
 
 # Helm
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
